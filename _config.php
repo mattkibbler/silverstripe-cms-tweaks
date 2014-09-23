@@ -5,8 +5,6 @@ if (!DEFINED('CMS_TWEAKS_BASE'))
 /* Custom CMS tweaks */
 Object::add_extension('LeftAndMain', 'LeftAndMainCMSTweaksExt');
 
-Object::add_extension('SiteTree', 'CustomMetaTagsEXT');
-
 /* Add "Remove formatting" button to TinyMCE to clean code */
 HtmlEditorConfig::get('cms')->insertButtonsAfter('pasteword', 'removeformat');
 
